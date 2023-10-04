@@ -30,5 +30,5 @@
 <br>* The cat with the argument "lecture1/messages" wants to print the contents of the file this path is given.
 <br>* There is an error because lecture1/messages is a directory but not a file.
 <br>(3)<br>* The working directory is in /home
-<br>* The command cat with the argument /lecutre1/messages/en-us.txt prints the content of "en-us.txt", which is "Hellow, world".
+<br>* The command cat with the argument /lecutre1/messages/en-us.txt prints the content of "en-us.txt", which is "Hellow, world!"
 <br>* There is no error.
