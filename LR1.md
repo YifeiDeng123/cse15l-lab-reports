@@ -9,7 +9,7 @@
 <br>(3)<br>* The working directory is in /home/lecture1/messages
 <br>* The cd with argument "en-us.txt" is used to find the folder en-us.txt under messages.
 <br>* There is an error because en-us.txt is not a folder but a file.
-# 1.ls
+# 2.ls
 ![Image](ls.png)
 <br>(1)<br>* The working directory is in /home
 <br>* The single ls with no argument just lists the files or folders under the current working directory, so it prints lecture1.
@@ -21,7 +21,7 @@
 <br>* Since /lecutre1/messages/en-us.txt is not a directory, it just prints the "/lecutre1/messages/en-us.txt".
 <br>* I think it is not an error, but we are not using ls to do the things it should do.
 
-# 1.cat
+# 3.cat
 ![Image](cat.png)
 <br>(1)<br>* The working directory is in /home
 <br>* The single cat with no argument is not a complete call, so I need to type ^C to finish it.
