@@ -11,7 +11,7 @@
 # 2. Part 2
 (1)
 <br>![Image](private.png)
-<be>(2)
+<br>(2)
 <br>![Image](Pub.png)
 <br>(3)
 <br>![Image](noPass.png)
