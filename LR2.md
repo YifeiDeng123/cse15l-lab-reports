@@ -12,9 +12,9 @@
 (1)
 <br>![Image](private.png)
 <br>(2)
-<br>![Image](public.png)
+<br>![Image](public.png)<br>
 <br>(3)
-<br>![Image](NoPassward.png)
+<br>![Image](NoPassward.png)<br>
 # 3. Part 3
 I learned how to write a web server that I hadn’t heard about before. I used to think that it would be very complicated to write a website, but now I have learned the handleRequest method to update the strings and change some numbers.
 
