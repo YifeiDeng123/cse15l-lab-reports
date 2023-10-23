@@ -1,5 +1,5 @@
 # 1. Part 1
-![Image](code.png)
+![Image](Code.png)
 <br>![Image](step1.png)
 <br>(1) The methods public String handleRequest and public static void main are called.
 <br>(2) For the method public String handleRequest the argument is URI url, and the value is String[] parameters. For the main method, the argument is String[] args and the value is int port.
