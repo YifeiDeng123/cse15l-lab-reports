@@ -37,3 +37,4 @@ static void reverseInPlace(int[] arr) {
   }
 }
 ```
+# 2. Part 2 - Researching Commands
