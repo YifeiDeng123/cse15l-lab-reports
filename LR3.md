@@ -126,93 +126,43 @@ Since this command displays the lines containing "kill" and their line numbers, 
 (3) grep -w: displays lines with whole words that match the specified pattern (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/biomed (main)
-$ grep -w "intersection" *.txt
-1471-2105-1-1.txt:          The intersection of the nullspace and the region
-1471-2105-3-34.txt:        microarrays), but when looking at the intersection of the
-1471-2105-3-34.txt:        intersection of two enormous sets of functional
-1471-213X-1-6.txt:          pole. The intersection of the white and gray regions
-1471-2156-4-10.txt:        single marker analysis and used to define an intersection
-1471-2156-4-10.txt:        intersection and the two marker test under the stated
-1471-2156-4-10.txt:          difference in statistical power between the intersection
-1471-2156-4-10.txt:          the intersection test for each of the parameter
-1471-2156-4-10.txt:          statistical power between the intersection test and the
-1471-2156-4-10.txt:          was exactly zero), 39 favoring the intersection test, and
-1471-2156-4-10.txt:          27 favoring the two marker test. The intersection test
-1471-2156-4-10.txt:          combinations indicated the intersection test as more
-1471-2156-4-10.txt:          intersection and two marker was zero was rejected for
-1471-2156-4-10.txt:          the intersection test has slightly higher power than the
-1471-2156-4-10.txt:          intersection test. Results similar to those found in the
-1471-2156-4-10.txt:          initial simulations indicate that the intersection test
-1471-2156-4-10.txt:          scenarios favored the intersection test, while 29
-1471-2156-4-10.txt:          powerful than the intersection test. However, when the
-1471-2156-4-10.txt:          the intersection test is more powerful. Although we can
-1471-2156-4-10.txt:          found to be significant using both the intersection test
-1471-2156-4-10.txt:          non-significant with both tests. The intersection and two
-1471-2156-4-10.txt:          intersection test, the two marker test, and the interval
-1471-2156-4-10.txt:          intersection test showed borderline significance for one
-1471-2156-4-10.txt:          35B-46C while intersection tests
-1471-2156-4-10.txt:          96F-100A while the intersection
-1471-2156-4-10.txt:          mapping agrees with the intersection test for interval
-1471-2156-4-10.txt:          The application of the intersection test to these data
-1471-2156-4-10.txt:          intersection test (see Figure 2). The regions identified
-1471-2156-4-10.txt:        The application of an intersection test uses information
-1471-2156-4-10.txt:        the two marker test. The use of the intersection test takes
-1471-2156-4-10.txt:        theory, and typically seen in the use of union/intersection
-1471-2156-4-10.txt:        intersection test is simple to implement, the expansion to
-1471-2156-4-10.txt:        unlinked, the intersection test is simply the single marker
-1471-2156-4-10.txt:        this case, the application of the intersection test will
-1471-2156-4-10.txt:        where the power of the intersection test is equal to or
-1471-2156-4-10.txt:        marker test has higher power than the intersection test. A
-1471-2156-4-10.txt:        QTL than the other marker, in this case the intersection
-1471-2156-4-10.txt:        tests that were not identified using the intersection test.
-1471-2156-4-10.txt:        the intersection tests were small but did not exceed the
-1471-2156-4-10.txt:        intersection tests, but were not significant using the two
-1471-2156-4-10.txt:        region than the intersection test, while in others the
-1471-2156-4-10.txt:        intersection and multiple marker approaches, or s/he may
-1471-2156-4-10.txt:        with an intersection test and a multiple marker analysis
-1471-2156-4-10.txt:        We find that the intersection test has equal or greater
-1471-2156-4-10.txt:        intersection test. When markers are linked, as in many of
-1471-2156-4-10.txt:        the intersection test is used in conjunction with a more
-1471-2156-4-10.txt:        appropriate correction, the performance of the intersection
-1471-2156-4-10.txt:        intersection tests versus two marker tests is to make clear
-1471-2156-4-10.txt:        intersection tests are indeed equal to and/or more powerful
-1471-2156-4-10.txt:          2 , hence the term intersection test.
-1471-2156-4-10.txt:          conservative for the intersection test and the lack of
-1471-2156-4-10.txt:          difficult for the intersection test to reject.
-1471-2156-4-10.txt:          intersection test, is the simplicity of calculation of
-1471-2156-4-10.txt:          For the intersection test, the null hypothesis was
-1471-2156-4-10.txt:          To compare the intersection test to the two marker
-1471-2156-4-10.txt:          intersection test was conducted. For the 71 unique pairs
-1471-2156-4-10.txt:          of markers, concordance between the intersection test and
-1471-2164-3-19.txt:        intersection in figure 2) in terms of specificity (Sp) and
-1471-2164-3-19.txt:        plotted as a function of the thresholds, the intersection
-gb-2002-3-11-research0062.txt:          intersection of differentially expressed genes on all
-gb-2002-3-11-research0065.txt:          intersection of a constant cutoff ratio with a
-gb-2002-3-12-research0081.txt:          intersection of each individual sequence alignment with
-gb-2002-3-12-research0081.txt:        intersection of cDNA alignments and exons. A cDNA was
-gb-2002-3-12-research0083.txt:            the re-annotation was determined using an intersection
-gb-2002-3-12-research0088.txt:          genes. A black dash at the intersection of a row and a
-gb-2002-3-12-research0088.txt:          intersection in the matrix was 1; otherwise it was 0. The
-gb-2002-3-4-research0018.txt:        considering the intersection (or union) of genes predicted
-gb-2002-3-9-research0044.txt:        overlaps. Why is such little intersection observed between
-gb-2002-3-9-research0044.txt:        consequently to the relatively limited intersection between
-gb-2003-4-2-r9.txt:          generate four independent output sets. The intersection
-gb-2003-4-2-r9.txt:          the first intersection, the self-binding and complexity
-gb-2003-4-2-r9.txt:          filters are incrementally relaxed until an intersection
+$ grep -w "intersect" *.txt
+1471-2121-3-4.txt:          regions intersect, producing stationary rings. We
+1471-2172-3-16.txt:        signal transduction pathways could intersect the default
+1471-2474-4-4.txt:          each selected candidate intersect near or at the midpoint
 ```
-This command ensures that we only get lines that have the whole word "intersection" but not just the word "intersect" or something else in the files in biomed folder.
+This command ensures that we only get lines that have the whole word "intersect" but not something like "intersection" in the files in biomed folder.
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/plos (main)
-$ grep -w "overwhelming" *.txt
-journal.pbio.0020001.txt:        several scientists, who present overwhelming evidence for the disparity in scientific
-journal.pbio.0020001.txt:        ecology and environmental sciences emphasizes the overwhelming contributions of authors
-journal.pbio.0020013.txt:        subject to multiple levels of regulation. In the overwhelming majority of cases, selected
-journal.pbio.0020042.txt:        also reinforces the notion that the overwhelming value of bioinformatics is to generate
-journal.pbio.0020172.txt:        either finding the overwhelming hold to pin down the other. More than one hundred twenty
-journal.pbio.0020241.txt:        and reliability. Consequently, this strain combination is at the origin of the overwhelming
-pmed.0010010.txt:        therapy into such a remote area are overwhelming—and some may question whether this is a
-pmed.0020016.txt:        Africa, where the overwhelming majority of people living with and dying from HIV/AIDS
-pmed.0020061.txt:        The US EPA has been slower than the EU to adapt to the overwhelming evidence that
-pmed.0020247.txt:        stigmatized as the vectors of HIV transmission, despite overwhelming evidence to the
+$ grep -w "develop" journal.pbio.0020010.txt
+        to become the hallmark of the new open-access initiatives as they develop.
+        others to develop services that are more in accord with 2003 than 1993. One lesson Roger
 ```
-This command ensures that we only get lines that have the whole word "overwhelming" but not just the word "over" or something else in the files in plos folder.
+This command ensures that we only get lines that have the whole word "develop" but not something like "development" in the file. <br>
+(3) grep -i: matches the search pattern regardless of whether the characters are in uppercase or lowercase (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+```
+AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/biomed (main)
+$ grep -i "study" 1468-6708-3-1.txt
+        events [ 10 ] . In this paper we study whether BMI at
+          Study design: The Cardiovascular Health
+          Study
+          The Cardiovascular Health Study (CHS) is a
+          population-based longitudinal study of 5,888 adults aged
+        from EVGFP) in the first seven years of the study, adjusted
+        CHS Cardiovascular Health Study
+```
+This command ensures selecting both "study" and "Study" in the file. So uppercase or lowercase does not matter in this case.
+```
+AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/plos (main)
+$ grep -i "for" pmed.0020281.txt
+        forces that zealously guard their secrets could not have been told without the help of
+        courageous men and women [1, 2] For that reason, those of us who congregated in Washington,
+        sponsors. Our convictions could not have been aired were it not for the essential First
+        For me, whistleblowing is not a theoretical exercise. It has a human face and tangible
+        passionate, and often successful, because our efforts have a different goal than the
+        is to tell the truth. That honest effort is the source of any ethical difference we can or
+        might make. Truth is the basis for the power of a whistleblower, one that can withstand the
+        assault of unprecedented odds against being heard put forth by that sum of political power,
+        success (I have adapted his comments for all of us who gathered in Washington in mid-May
+```
+This command ensures selecting both "for" and "For" in the file. So uppercase or lowercase does not matter in this case.
