@@ -2,9 +2,18 @@
 (1)
 ```
 @Test 
-	public void testReverseInPlace1() {
+public void testReverseInPlace1() {
     int[] input1 = { 3, 5, 7, 9, 11 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 11, 9, 7, 5, 3 }, input1);
-	}
+}
+```
+(2)
+```
+@Test 
+public void testReverseInPlace2() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+}
 ```
