@@ -139,7 +139,7 @@ $ grep -w "develop" journal.pbio.0020010.txt
         others to develop services that are more in accord with 2003 than 1993. One lesson Roger
 ```
 This command ensures that we only get lines that have the whole word "develop" but not something like "development" in the file. <br>
-(3) grep -i: matches the search pattern regardless of whether the characters are in uppercase or lowercase (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+(4) grep -i: matches the search pattern regardless of whether the characters are in uppercase or lowercase (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/biomed (main)
 $ grep -i "study" 1468-6708-3-1.txt
