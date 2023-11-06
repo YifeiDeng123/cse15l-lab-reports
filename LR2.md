@@ -10,9 +10,9 @@
 <br>(3)For the class Handler, URI url changes to http://localhost:4000/add-message?s=How%20are%20you,the int variable num changes from 1 to 2. String str changes to "“1. Hello!” + "\n" + “2. How are you” +  "\n"". Then it is returned and displayed on the page.
 # 2. Part 2
 (1) Private key
-<br>![Image](private.png)
+<br>![Image](Pri.png)
 <br>(2) Public key
-<br>![Image](public.png)<br>
+<br>![Image](Pub.png)<br>
 <br>(3) Log into ieng6 without being asked for a password
 <br>![Image](NoPassward.png)<br>
 # 3. Part 3
