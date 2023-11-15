@@ -99,8 +99,8 @@ $ grep -n "gender" diversity_priorities.txt
 ```
 Since this command displays the lines containing "gender" and their line numbers, it makes it easier for us to locate which part is talking about the gender topic in the file.
 <br> - Example 2:
-AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/911report (main)
 ```
+AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/911report (main)
 $ grep -n "kill" chapter-2.txt
 19:            He claimed it was more important for Muslims to kill Americans than to kill other
 20:                infidels." It is far better for anyone to kill a single American soldier than to
