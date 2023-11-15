@@ -37,8 +37,10 @@ static void reverseInPlace(int[] arr) {
   }
 }
 ```
+Explanation: The original code has a bug in the line "arr[i] = arr[arr.length - i - 1];" within the loop. This line tries to reverse the array in place, but it's overwriting the elements with incorrect values instead. It assigns each element at index i to the value at position "arr.length - i - 1". So in my fixed code, "int temp = arr[I];" stores the value of the current element (arr[i]) in a temporary variable temp. Then in line "arr[i] = arr[arr.length - i - 1];", it sets the value of "arr[I]" to the corresponding element from the end of the array. Finally, "arr[arr.length - i - 1] = temp;" assigns the value stored in "temp". However, there may still be some problems in the fixed code. For instance, I should add an if statement to check whether the input array is null. If so, the method should throw a NullPointerException.
 # 2. Part 2 - Researching Commands
-(1) grep -c: displays the count of matching lines instead of the actual lines (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+(1) "grep -c": displays the count of matching lines instead of the actual lines (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br> Example 1:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/911report (main)
 $ grep -c "flight" *.txt
@@ -61,6 +63,7 @@ chapter-9.txt:3
 preface.txt:0
 ```
 This command line prints a count of lines in each file in the folder 911 report that contains the word "flight". We can see most of the files contain many lines with the word "flight", which is consistent with the topic -- 911report. In this way, we can know the main thing that happened in 911 was about the flight.
+<br> Example 2:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/government/About_LSC (main)
 $ grep -c "gender" *.txt
@@ -83,7 +86,8 @@ State_Planning_Special_Report.txt:0
 Strategic_report.txt:2
 ```
 This command line prints a count of lines in each file in the folder government/About_LSC that contains the word "gender". By using this command, we can know which file is talking about the gender topic and which file considers more about the gender topic.<br>
-(2) grep -n: displays line numbers along with the matching lines (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+(2) "grep -n": displays line numbers along with the matching lines (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br> Example 1:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/government/About_LSC (main)
 $ grep -n "gender" diversity_priorities.txt
@@ -94,6 +98,7 @@ $ grep -n "gender" diversity_priorities.txt
 418:religious groups and gays/lesbians/bi-sexual and transgender
 ```
 Since this command displays the lines containing "gender" and their line numbers, it makes it easier for us to locate which part is talking about the gender topic in the file.
+<br> Example 2:
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/911report (main)
 ```
 $ grep -n "kill" chapter-2.txt
@@ -123,7 +128,8 @@ $ grep -n "kill" chapter-2.txt
 940:                without assaulting them, even if this involved the killing of Muslims, this is
 ```
 Since this command displays the lines containing "kill" and their line numbers, it makes it easier for us to locate which part is talking about the number of casualties on 9/11. <br>
-(3) grep -w: displays lines with whole words that match the specified pattern (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+(3) "grep -w": displays lines with whole words that match the specified pattern (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br> Example 1:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/biomed (main)
 $ grep -w "intersect" *.txt
@@ -132,6 +138,7 @@ $ grep -w "intersect" *.txt
 1471-2474-4-4.txt:          each selected candidate intersect near or at the midpoint
 ```
 This command ensures that we only get lines that have the whole word "intersect" but not something like "intersection" in the files in biomed folder.
+<br> Example 2:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/plos (main)
 $ grep -w "develop" journal.pbio.0020010.txt
@@ -139,7 +146,8 @@ $ grep -w "develop" journal.pbio.0020010.txt
         others to develop services that are more in accord with 2003 than 1993. One lesson Roger
 ```
 This command ensures that we only get lines that have the whole word "develop" but not something like "development" in the file. <br>
-(4) grep -i: matches the search pattern regardless of whether the characters are in uppercase or lowercase (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+(4) "grep -i": matches the search pattern regardless of whether the characters are in uppercase or lowercase (resource: https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br> Example 1:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/biomed (main)
 $ grep -i "study" 1468-6708-3-1.txt
@@ -152,6 +160,7 @@ $ grep -i "study" 1468-6708-3-1.txt
         CHS Cardiovascular Health Study
 ```
 This command ensures selecting both "study" and "Study" in the file. So uppercase or lowercase does not matter in this case.
+<br> Example 2:
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 ~/Documents/GitHub/docsearch/technical/plos (main)
 $ grep -i "for" pmed.0020281.txt
