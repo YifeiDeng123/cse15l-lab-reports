@@ -5,5 +5,5 @@
 ![Image](clone.png)
 <br> To clone the repository, I first copied the SSH link from my GitHub. Next, I typed the command "git clone git@github.com:YifeiDeng123/lab7.git" and then pressed the key <return> to execute the command. 
 ## Step 6: Run the tests, demonstrating that they fail
-![Image](fail.png)
+![Image](FailTest.png)
 <br> To run the test, I first typed "ls" to check whether lab7 has been cloned successfully. Then I typed "cd lab7" to go into lab7's directory. Next, I typed "ls" to check the files in the folder of lab7. Finally, I typed the command "bash test.sh" and then pressed the key <return> to execute the command. 
