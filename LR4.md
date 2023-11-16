@@ -1,6 +1,6 @@
 ## Step 4: Log into ieng6
 ![Image](login.png)
-<br> To login ieng6, I typed the command "ssh cs15lsp23si@ieng6.ucsd.edu" and then pressed the key <enter> to execute the command. Since I have set up the keys for easy access, I don't need to enter my password.
+<br> To login ieng6, I typed the command "ssh cs15lfa23cd@ieng6.ucsd.edu" and then pressed the key <enter> to execute the command. Since I have set up the keys for easy access, I don't need to enter my password.
 ## Step 5: Clone your fork of the repository from your Github account
 ![Image](clone.png)
 <br> To clone the repository, I first copied the SSH link from my GitHub. Next, I typed the command "git clone git@github.com:YifeiDeng123/lab7.git" and then pressed the key <return> to execute the command. 
