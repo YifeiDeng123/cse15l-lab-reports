@@ -26,7 +26,7 @@
 <br> Firstly, I typed "git status" to check the status of my file. As we can see, the ListExamples.java has been modified.
 <br>![Image](commit.png)<br> 
 <br> Then, I typed "git add ListExamples.java" and pressed the <enter> key. Then I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". 
-<br>![Image](push.png)<br> 
+<br>![Image](/cse15l-lab-reports/push.png)<br> 
 <br> Finally, I typed "git push" to push the resulting change to my GitHub account.
 <br>![Image](github.png)<br>
 <br> As we can see, GitHub has shown the resulting change.
