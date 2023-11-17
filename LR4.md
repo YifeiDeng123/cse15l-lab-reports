@@ -23,10 +23,10 @@
 <br> To rerun the test, I pressed the up arrow key to retrieve my command history of "bash.sh". Then I pressed the <enter> key to run the test. Now both tests passed.
 ## Step 9: Commit and push the resulting change to your Github account
 ![Image](status.png)
-<br> Firstly, I typed "git status" to check the status of my file. As we can see, the ListExamples.java has been modified.
+<br> Firstly, I typed "git status" to check the status of my file. As we can see, the ListExamples.java has been modified.<br> 
 ![Image](commit.png)
-<br> Then, I typed "git add ListExamples.java" and pressed the <enter> key. Then I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". 
+<br> Then, I typed "git add ListExamples.java" and pressed the <enter> key. Then I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". <br> 
 ![Image](push.png)
-<br> Finally, I typed "git push" to push the resulting change to my GitHub account.
+<br> Finally, I typed "git push" to push the resulting change to my GitHub account.<br> 
 ![Image](github.png)
 <br> As we can see, GitHub has shown the resulting change.
