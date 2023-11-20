@@ -15,7 +15,7 @@ To edit the code file, I first opened ListExamples.java in vim by typing the com
 Now I am in the normal mode of vim. First, I need to navigate to "index1" in the final loop in the merge method in order to change it to "index2". To do so, I press &lt;ctrl - d&gt; three times to get to the end of the code. 
 
 <br>![Image](Vim02.png)<br> 
-Then I pressed up arrow key 6 times to get to the beginning of the line where I wanted to make a change. Next, I press &lt;f-1&gt; to  jump to just before the next occurrence using 1. Then I pressed the right arrow key to get to the place that I wanted to edit. 
+Then I pressed up arrow key 6 times to get to the beginning of the line where I wanted to make a change. Next, I press &lt;f-1&gt; to jump to just before the next occurrence of 1. Then I pressed the right arrow key to get to the place that I wanted to edit. 
 
 <br>![Image](Vim03.png)<br> 
 After that, I pressed "i" to get into the insert mode. Next, I pressed &lt;backspace&gt; and typed "2" to change "index1" to "index2".
@@ -24,7 +24,7 @@ After that, I pressed "i" to get into the insert mode. Next, I pressed &lt;backs
 Finally, I pressed the key &lt;esc&gt; to return to the normal mode and typed ":wq" to save and exit the vim.
 ## Step 8: Run the tests, demonstrating that they now succeed
 <br>![Image](TestSuc.png) 
-<br> To rerun the test, I pressed the up arrow key to retrieve my command history of "bash.sh". Then I pressed the &lt;enter&gt; key to run the test. Now both tests passed.
+<br> To rerun the test, I pressed the up arrow key to retrieve my command history of "bash test.sh". Then I pressed the &lt;enter&gt; key to run the test. Now both tests passed.
 ## Step 9: Commit and push the resulting change to your Github account
 <br>![Image](status.png)<br> 
 Firstly, I typed "git status" to check the status of my file. As we can see, the ListExamples.java has been modified.
