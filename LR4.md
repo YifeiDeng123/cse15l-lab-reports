@@ -3,7 +3,7 @@
 <br> I first typed the command "history | grep ssh" to look up my terminal history containing "ssh" so that I could find the command used to log in to ieng6. 
 
 <br>![Image](login.png)<br>
-Then, I selected "ssh cs15lfa23cd@ieng6.ucsd.edu" and used &lt;ctrl-c&gt and &lt;ctrl-v&gt to copy and paste the command. Next, I pressed the key &lt;enter&gt; to execute the command. Since I have set up the keys for easy access, I don't need to enter my password.
+Then, I selected "ssh cs15lfa23cd@ieng6.ucsd.edu" and used &lt;ctrl-c&gt; and &lt;ctrl-v&gt; to copy and paste the command. Next, I pressed the key &lt;enter&gt; to execute the command. Since I have set up the keys for easy access, I don't need to enter my password.
 ## Step 5: Clone your fork of the repository from your Github account
 <br>![Image](clone.png)<br>
 <br> To clone the repository, I first used  &lt;ctrl-c&gt; to copy the SSH link from my GitHub. Next, I typed "git clone " and used &lt;ctrl-v&gt to paste the URL "git@github.com:YifeiDeng123/lab7.git" after "git clone ". To execute the command I pressed the key &lt;enter&gt;. 
