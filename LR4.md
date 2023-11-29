@@ -32,7 +32,7 @@ Finally, I pressed the key &lt;esc&gt; to return to the normal mode and typed ":
 <br>![Image](status.png)<br> 
 Firstly, I typed "git status" to check the status of my file. As we can see, the ListExamples.java has been modified.
 <br>![Image](commit.png)<br> 
-Then, I typed "git add L" and pressed &lt;tab&gt; to help me complete the rest of the name, which is "istExamples". Then I typed ".java" after "git add ListExamples" and pressed the &lt;enter&gt;&lt; key. Next, I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". 
+Then, I typed "git add L" and pressed &lt;tab&gt; to help me complete the rest of the name, which is "istExamples". Then I typed ".java" after "git add ListExamples" and pressed the &lt;enter&gt; key. Next, I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". 
 
 <br>![Image](GitPush.png)<br> 
 Finally, I typed "git push" to push the resulting change to my GitHub account.
