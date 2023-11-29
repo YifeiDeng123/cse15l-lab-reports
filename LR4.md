@@ -18,7 +18,7 @@ To edit the code file, I first opened ListExamples.java in vim by typing the com
 Now I am in the normal mode of vim. First, I need to navigate to "index1" in the final loop in the merge method in order to change it to "index2".  
 
 <br>![Image](line.png)<br> 
-To do so, I typed ":44" and pressed &lt;entere&gt; to get to the beginning of the line where I would make the change. Then I pressed the right arrow key 6 times to get to the place that I wanted to edit. 
+To do so, I typed ":44" and pressed &lt;enter&gt; to get to the beginning of the line where I would make the change. Then I pressed the right arrow key 6 times to get to the place that I wanted to edit. 
 
 <br>![Image](Vim03.png)<br> 
 After that, I pressed "i" to get into the insert mode. Next, I pressed &lt;backspace&gt; and typed "2" to change "index1" to "index2".
@@ -32,7 +32,7 @@ Finally, I pressed the key &lt;esc&gt; to return to the normal mode and typed ":
 <br>![Image](status.png)<br> 
 Firstly, I typed "git status" to check the status of my file. As we can see, the ListExamples.java has been modified.
 <br>![Image](commit.png)<br> 
-Then, I typed "git add L" and pressed &lt;tab&gt;&lt; to help me complete the rest name, which is "istExamples". Then I typed ".java" after that and pressed the &lt;enter&gt;&lt; key. Next, I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". 
+Then, I typed "git add L" and pressed &lt;tab&gt; to help me complete the rest of the name, which is "istExamples". Then I typed ".java" after "git add ListExamples" and pressed the &lt;enter&gt;&lt; key. Next, I typed "git commit -m "Fix Code"" to commit my changes with the message "Fix Code". 
 
 <br>![Image](GitPush.png)<br> 
 Finally, I typed "git push" to push the resulting change to my GitHub account.
