@@ -14,6 +14,8 @@ Thank you very much! I do use the Windows system. I checked the webpage for week
 The file & directory structure needed:
 <br>![Image](folder.png)<br>
 The contents of each file before fixing the bug:
+<br>![Image](bug.png)<br>
+
 <br>![Image](content1.png)<br>
 
 <br>![Image](content2.png)<br>
