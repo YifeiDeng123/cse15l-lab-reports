@@ -27,7 +27,7 @@ The full command line (or lines) you ran to trigger the bug:
 AD+yid008@DESKTOP-LQADC83 MINGW64 /e/cse/lab7 (main)
 $ bash test.sh
 ```
-A description of what to edit to fix the bug:
+A description of what to edit to fix the bug:<br>
 The things to edit to fix the bug are to change the two command lines in test.sh. The original ones are used to compile and run Junit tests in the Mac system. For the Windows users, we need to change ":" before each "lib" to ";". Also, we need to add backticks before each ".;lib" and after each".jar".
 ## Part 2
 In the second half of this quarter, I think the most interesting thing I learned from this course is about the Vim. I never heard about Vim before. But after learning and using it, I feel it is very useful. That is because, with Vim, I could edit the file without opening it on my computer. Sometimes it is really hard to find a specific file if your computer has tons of files and folders. Also, Vin allows us to edit a file remotely via ssh, which is really convenient.
