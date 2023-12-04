@@ -6,7 +6,7 @@
 Then, I selected "ssh cs15lfa23cd@ieng6.ucsd.edu" and used &lt;ctrl-c&gt; and &lt;ctrl-v&gt; to copy and paste the command. Next, I pressed the key &lt;enter&gt; to execute the command. Since I have set up the keys for easy access, I don't need to enter my password.
 ## Step 5: Clone your fork of the repository from your Github account
 <br>![Image](clone.png)<br>
-<br> To clone the repository, I first used  &lt;ctrl-c&gt; to copy the SSH link from my GitHub. Next, I typed "git clone " and used &lt;ctrl-v&gt to paste the URL "git@github.com:YifeiDeng123/lab7.git" after "git clone ". To execute the command I pressed the key &lt;enter&gt;. 
+<br> To clone the repository, I first used  &lt;ctrl-c&gt; to copy the SSH link from my GitHub. Next, I typed "git clone " and used &lt;ctrl-v&gt; to paste the URL "git@github.com:YifeiDeng123/lab7.git" after "git clone ". To execute the command I pressed the key &lt;enter&gt;. 
 ## Step 6: Run the tests, demonstrating that they fail
 <br>![Image](FailTest.png)<br>
 <br> To run the test, I first typed "ls" to check whether lab7 has been cloned successfully. Then I typed "cd lab7" to go into lab7's directory. Next, I used &lt;up&gt; arrow to retrieve the "ls" command to check the files in the folder of lab7. Finally, I typed "bash t" and pressed &lt;tab&gt; to help me complete the rest of the command, which is "est.sh". Then pressed the key &lt;enter&gt; to execute the command. It shows that 2 tests were run but 1 test was failed.
