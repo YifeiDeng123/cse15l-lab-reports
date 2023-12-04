@@ -11,9 +11,9 @@ Hi! I think the issue may caused by the system you are using. I believe you are 
 <br>![Image](corrected.png)<br>
 Thank you very much! I do use the Windows system. I simply cloned the code from the Professor, where the codes in start.sh are used for Mac. I checked the webpage for week 4 and found out the correct command. I first changed all the ":" to ";" and then added backticks before ".;lib" and after ".jar". Now the command "bash test.sh" can successfully compile and run the ListExamplesTests.java.
 ## 4. Setup:
-The file & directory structure needed:
+**The file & directory structure needed:**
 <br>![Image](folder.png)<br>
-The contents of each file before fixing the bug:
+**The contents of each file before fixing the bug:**
 <br>![Image](bug.png)<br>
 
 <br>![Image](content1.png)<br>
@@ -22,7 +22,7 @@ The contents of each file before fixing the bug:
 
 <br>![Image](content3.png)<br>
 
-The full command line (or lines) you ran to trigger the bug:
+**The full command line (or lines) you ran to trigger the bug:**
 ```
 AD+yid008@DESKTOP-LQADC83 MINGW64 /e/cse/lab7 (main)
 $ bash test.sh
@@ -32,8 +32,8 @@ Where the codes inside the test.sh are:
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-A description of what to edit to fix the bug:<br>
-The things to edit to fix the bug are to change the two command lines in test.sh. The original ones are used to compile and run Junit tests in the Mac system. For the Windows users, we need to change ":" before each "lib" to ";". Also, we need to add backticks before each ".;lib" and after each".jar".
+**A description of what to edit to fix the bug:** <br>
+The things to edit to fix the bug are to change the two command lines in test.sh. The original ones are used to compile and run Junit tests in the Mac system. For the Windows users, we need to change ":" before each "lib" to ";". Also, we need to add backticks before each ".;lib" and after each".jar". <br>
 So the corrected codes are:
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
