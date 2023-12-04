@@ -9,7 +9,7 @@ What is the problem with it? I didn't change anything but only cloned the code.
 Hi! I think the issue may caused by the system you are using. I believe you are using the Windows system but not the Mac system. The test.sh code provided by the Professor is for Mac users. However, the way to compile and run the Junit tests in commands is different for Windows and Mac users. Please refer to week 4 lab materials for correct commands in the Windows system.
 # 3. Fix Bug:
 <br>![Image](corrected.png)<br>
-Thank you very much! I do use the Windows system. I checked the webpage for week 4 and found out the correct command. I first changed all the ":" to ";" and then added backticks before ".;lib" and after ".jar". Now the command "bash test.sh" can successfully compile and run the ListExamplesTests.java.
+Thank you very much! I do use the Windows system. I simply cloned the code from the Professor, where the codes in start.sh are used for Mac. I checked the webpage for week 4 and found out the correct command. I first changed all the ":" to ";" and then added backticks before ".;lib" and after ".jar". Now the command "bash test.sh" can successfully compile and run the ListExamplesTests.java.
 # 4. Setup:
 The file & directory structure needed:
 <br>![Image](folder.png)<br>
